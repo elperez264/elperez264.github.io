@@ -7850,6 +7850,19 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-image{
+  background-image: url('G:/Alvaro/UCA/zlinkedin/portfolio/startbootstrap-stylish-portfolio-master/dist/assets/img/fondoIberdrola.png'); /* Reemplaza con la ruta correcta de tu imagen */
+  background-position: center; /* Ajusta la posición de la imagen */
+  /* background-size: 100% 100%;   */
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.bg-image .container {
+  position: relative; /* Asegura que los elementos hijos se posicionen en relación con este elemento */
+  z-index: 10;
+}
+
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
@@ -11471,6 +11484,23 @@ justify-content:flex-end;
   background-size: cover;
 }
 .callout h2, .callout .h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display:flex;
+  max-width: 30rem;
+  /* padding-left: 34.5rem;
+  padding-right: 34.5rem; */
+}
+
+.callout-white {
+  padding: 15rem 0;
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg"); */
+  background-color: var(--bs-body-bg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.callout-white h2, .callout-white .h2 {
   font-size: 3.5rem;
   font-weight: 700;
   display:flex;
