@@ -7852,13 +7852,32 @@ textarea.form-control-lg {
 
 .bg-image{
   background-image: url('G:/Alvaro/UCA/zlinkedin/portfolio/startbootstrap-stylish-portfolio-master/dist/assets/img/fondoIberdrola.png'); /* Reemplaza con la ruta correcta de tu imagen */
-  background-position: center; /* Ajusta la posición de la imagen */
+  background-position: auto; /* Ajusta la posición de la imagen */
   /* background-size: 100% 100%;   */
   background-size: auto;
   background-repeat: no-repeat;
 }
 
 .bg-image .container {
+  position: relative; /* Asegura que los elementos hijos se posicionen en relación con este elemento */
+  z-index: 10;
+}
+
+.experienceSumary{
+  font-size: 1.27rem;
+  font-weight: 445;
+}
+
+.bg-imageUca{
+  background-color: rgba(var(--bs-blue));
+  background-image: url('G:/Alvaro/UCA/zlinkedin/portfolio/startbootstrap-stylish-portfolio-master/dist/assets/img/fondoUca.png'); /* Reemplaza con la ruta correcta de tu imagen */
+  background-position: left; /* Ajusta la posición de la imagen */
+  /* background-size: 100% 100%;   */
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.bg-imageUca .container {
   position: relative; /* Asegura que los elementos hijos se posicionen en relación con este elemento */
   z-index: 10;
 }
@@ -11412,7 +11431,7 @@ html {
   font-size: 1.2rem;
   height: 80px;
   line-height: 50px;
-  padding-top: 60rem;
+  padding-top: 50rem;
   padding-bottom: 15px;
   padding-left: 10px;
   color:white;
@@ -11508,6 +11527,24 @@ justify-content:flex-end;
   /* padding-left: 34.5rem;
   padding-right: 34.5rem; */
 }
+
+.callout-uca {
+  padding: 10rem 0;
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg"); */
+  background-color: var(--bs-blue);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.callout-uca h2, .callout-uca .h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  display:flex;
+  max-width: 30rem;
+  /* padding-left: 34.5rem;
+  padding-right: 34.5rem; */
+}
+
 
 footer.footer {
   padding-top: 5rem;
