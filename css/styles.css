@@ -11493,7 +11493,7 @@ justify-content:flex-end;
 }
 
 .callout-white {
-  padding: 15rem 0;
+  padding: 10rem 0;
   /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg"); */
   background-color: var(--bs-body-bg);
   background-position: center center;
@@ -11501,7 +11501,7 @@ justify-content:flex-end;
   background-size: cover;
 }
 .callout-white h2, .callout-white .h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
   display:flex;
   max-width: 30rem;
