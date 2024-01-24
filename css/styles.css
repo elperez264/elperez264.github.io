@@ -7851,7 +7851,7 @@ textarea.form-control-lg {
 }
 
 .bg-image{
-  background-image: url('G:/Alvaro/UCA/zlinkedin/portfolio/startbootstrap-stylish-portfolio-master/dist/assets/img/fondoIberdrola.png'); /* Reemplaza con la ruta correcta de tu imagen */
+  background-image: url('../assets/img/fondoIberdrola.png'); /* Reemplaza con la ruta correcta de tu imagen */
   background-position: auto; /* Ajusta la posición de la imagen */
   /* background-size: 100% 100%;   */
   background-size: auto;
@@ -7870,7 +7870,7 @@ textarea.form-control-lg {
 
 .bg-imageUca{
   background-color: rgba(var(--bs-blue));
-  background-image: url('G:/Alvaro/UCA/zlinkedin/portfolio/startbootstrap-stylish-portfolio-master/dist/assets/img/fondoUca.png'); /* Reemplaza con la ruta correcta de tu imagen */
+  background-image: url('../assets/img/fondoUca.png'); /* Reemplaza con la ruta correcta de tu imagen */
   background-position: left; /* Ajusta la posición de la imagen */
   /* background-size: 100% 100%;   */
   background-size: auto;
