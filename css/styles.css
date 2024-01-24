@@ -7860,7 +7860,7 @@ textarea.form-control-lg {
 
 .bg-image .container {
   position: relative; /* Asegura que los elementos hijos se posicionen en relación con este elemento */
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 .experienceSumary{
@@ -7879,7 +7879,7 @@ textarea.form-control-lg {
 
 .bg-imageUca .container {
   position: relative; /* Asegura que los elementos hijos se posicionen en relación con este elemento */
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 .bg-dark {
